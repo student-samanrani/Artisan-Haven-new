@@ -19,7 +19,6 @@
         </div>   
     </div>
 </section>
-
 <section>
     <div class="container">          
         <div class="row">
@@ -70,6 +69,38 @@
         </div>
     </div>
 </section>
+@elseif ($page->slug == 'about-us')
+<section class=" section-10">
+    <div class="container">
+        <div class="section-title mt-5 ">
+            <h2> {!! $page->name !!}  </h2>
+        </div>   
+    </div>
+</section>
+<section>
+    <div class="container">          
+        <div class="row">
+            <div class="col-md-6 pe-lg-5">
+                  {!! $page->content !!}                 
+            </div>
+            <div class="col-md-6">
+                <picture>
+                    <img src="{{ asset('front-assets/images/about.jpg')}}" alt="" />
+                </picture>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mt-5">
+                <p class="lead"> Our mission is to connect art lovers with exceptional, one-of-a-kind creations that transcend time.
+                     Artisan Haven provides an immersive experience where visitors can explore, appreciate, and purchase artwork that speaks to their heart. 
+                     From vibrant canvases to elegant calligraphy, every item on our platform brings a personal touch to your space.
+                     When you purchase from Artisan Haven, you're not just acquiring a product—you're supporting the preservation of artistic traditions and empowering artisans to continue creating timeless works of art for generations to come.
+                </p >
+            </div>
+        </div>
+    </div>
+</section>
+
 @else
 <section class=" section-10">
     <div class="container">

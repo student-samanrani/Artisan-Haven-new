@@ -7,7 +7,7 @@
     <div class="container-fluid my-2">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Edit Brand</h1>
+                <h1>Edit Artist</h1>
             </div>
             <div class="col-sm-6 text-right">
                 <a href="{{ route('brands.index') }}" class="btn btn-primary">Back</a>
