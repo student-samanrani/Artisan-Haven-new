@@ -41,9 +41,9 @@
             <div class="carousel-item">
 
                 <picture>
-                    <source media="(max-width: 799px)" srcset="{{ asset('front-assets/images/carousel-3-m.jpg')}}" />
-                    <source media="(min-width: 800px)" srcset="{{ asset('front-assets/images/carousel-3.jpg')}}" />
-                    <img src="{{ asset('front-assets/images/carousel-3.jpg')}}" alt="" />
+                    <source media="(max-width: 799px)" srcset="{{ asset('front-assets/images/front.jpg')}}" />
+                    <source media="(min-width: 800px)" srcset="{{ asset('front-assets/images/front.jpg')}}" />
+                    <img src="{{ asset('front-assets/images/front.jpg')}}" alt="" />
                 </picture>
 
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -188,7 +188,7 @@
 <section class="section-4 pt-5">
     <div class="container">
         <div class="section-title">
-            <h2>Latest Produsts</h2>
+            <h2>Latest Products</h2>
         </div>    
         <div class="row pb-3">
             @if ($latestProducts->isNotEmpty())

@@ -80,10 +80,12 @@
 <section>
     <div class="container">          
         <div class="row">
-            <div class="col-md-6 pe-lg-5">
+            <div class="col-md-12 pb-5">
                   {!! $page->content !!}                 
             </div>
-            <div class="col-md-6">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <picture>
                     <img src="{{ asset('front-assets/images/about.jpg')}}" alt="" />
                 </picture>
@@ -91,7 +93,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 mt-5">
-                <p class="lead"> Our mission is to connect art lovers with exceptional, one-of-a-kind creations that transcend time.
+                <p class="lead" style="text-align:justify;"> Our mission is to connect art lovers with exceptional, one-of-a-kind creations that transcend time.
                      Artisan Haven provides an immersive experience where visitors can explore, appreciate, and purchase artwork that speaks to their heart. 
                      From vibrant canvases to elegant calligraphy, every item on our platform brings a personal touch to your space.
                      When you purchase from Artisan Haven, you're not just acquiring a product—you're supporting the preservation of artistic traditions and empowering artisans to continue creating timeless works of art for generations to come.

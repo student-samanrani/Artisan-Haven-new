@@ -202,10 +202,10 @@
 			<div class="col-md-4">
 				<div class="footer-card">
 					<h3>Get In Touch</h3>
-					<p>No dolore ipsum accusam no lorem. <br>
-					123 Street, New York, USA <br>
-					exampl@example.com <br>
-					000 000 0000</p>
+					<p>We'd love to hear from you! <br>
+						123 Main Street, Gujranwala, Pakistan <br>
+						admin@artisanhaven.com <br>
+						Phone: (+92) 123-456789</p>
 				</div>
 			</div>
 
@@ -244,7 +244,7 @@
 			<div class="row">
 				<div class="col-12 mt-3">
 					<div class="copy-right text-center">
-						<p>© Copyright 2022 Amazing Shop. All Rights Reserved</p>
+						<p>© Copyright 2024 Artwork Shop. All Rights Are Reserved</p>
 					</div>
 				</div>
 			</div>
