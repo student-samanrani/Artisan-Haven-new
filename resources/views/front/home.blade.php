@@ -244,5 +244,14 @@
         </div>
     </div>
 </section>
+<section class="section-4 pt-5">
+    <div class="container">
+<div style="display: flex; justify-content: center; align-items: center; ">
+    <a href="{{ route("front.shop")}}" style="padding: 20px 20px; background-color: rgb(53, 52, 52); color: white;  text-align: center;  cursor: pointer;">
+        See More
+    </a>
+</div>
+</div>
+</section>
 
 @endsection

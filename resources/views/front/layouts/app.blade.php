@@ -193,7 +193,7 @@
 
 
 <main>
-  @yield('content');
+  @yield('content')
 </main>
 
 <footer class="bg-dark mt-5">
