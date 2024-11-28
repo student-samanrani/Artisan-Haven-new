@@ -111,7 +111,10 @@ class AuthController extends Controller
         $validator = Validator::make($request->all(),[
             'name' => 'required',
             'email' => 'required|email|unique:users,email,'.$userId.',id',
-            'phone' => 'required', 
+            'phone' => [
+                    'required',
+                    'regex:/^[\+\-\]?[0-9\s]{11,13}$/'
+                    ]
         ]);
 
         if ($validator->passes()){
@@ -150,7 +153,10 @@ class AuthController extends Controller
             'city' => 'required',
             'state' => 'required',
             'zip' => 'required',
-            'mobile' => 'required'
+            'mobile' => [
+                    'required',
+                    'regex:/^[\+\-\]?[0-9\s]{11,13}$/'
+                    ]
         ]);
 
         if ($validator->passes()){

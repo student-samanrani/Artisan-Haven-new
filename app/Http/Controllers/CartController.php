@@ -216,15 +216,18 @@ class CartController extends Controller
         // step - 1 apply validation
 
         $validator = Validator::make( $request->all(), [
-            'first_name' => 'required|min:5',
-            'last_name' => 'required',
+            'first_name' => 'required|min:5|regex:/^\S+$/',
+            'last_name' => 'required|regex:/^\S+$/',
             'email' => 'required|email',
             'country' => 'required',
             'address' => 'required|min:15',
             'city' => 'required',
             'state' => 'required',
             'zip' => 'required',
-            'mobile' => 'required'
+            'mobile' => [
+                    'required',
+                    'regex:/^[\+\-\]?[0-9\s]{11,13}$/'
+                    ]
         ]);
 
         if($validator->fails()){
